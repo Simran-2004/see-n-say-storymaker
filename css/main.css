@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  color: #2083a4;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+button {
+  background-color: #4c98af;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#nounBtn:focus ~ #story {
+  color: rgb(198, 68, 231);
+}
+
+#verbBtn:focus ~ #story {
+  color: rgb(122, 201, 235);
+}
+
+#adjectiveBtn:focus ~ #story {
+  color: rgb(39, 203, 39);
+}
+
+#secondNounBtn:focus ~ #story {
+  color: rgb(230, 150, 0);
+}
+
+#placeBtn:focus ~ #story{
+    color: #de57a1; 
+}
+
+/* Style for the buttons */
+#nounBtn {
+    background-color: rgb(198, 68, 231); 
+    color: white; /* White text */
+}
+
+#verbBtn {
+    background-color: rgb(122, 201, 235); 
+    color: white; /* White text */
+}
+
+#adjectiveBtn {
+    background-color:  rgb(39, 203, 39);
+    color: white; /* White text */
+}
+
+#secondNounBtn {
+    background-color:rgb(230, 150, 0);
+    color: white; /* White text */
+}
+
+#placeBtn {
+    background-color: #de57a1; 
+    color: white; /* White text */
+}
+
+#speakBtn {
+    background-color: #bc1a2a; 
+    color: white; /* White text */
+} 
+
+#resetBtn {
+    background-color: #038134; 
+    color: white; /* White text */
+}
+
+
+
+#story {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #d42c0e;
+}
